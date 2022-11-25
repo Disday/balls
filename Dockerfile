@@ -13,4 +13,4 @@ ENV NODE_ENV=development
 # RUN make prepare
 # RUN make build
 
-# CMD ["bash", "-c", "make db-migrate && npm start"]
+CMD ["bash", "-c", "node server.js"]
